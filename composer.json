@@ -1,0 +1,33 @@
+{
+  "name": "sereja3578/yii2-documents-widget",
+  "description": "Package",
+  "keywords": [
+    "yii2",
+    "Documents"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Ilichev",
+      "email": "sergey.my.activity@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "yiisoft/yii2": "2.*",
+    "kartik-v/yii2-krajee-base": "*",
+    "porcelanosa/yii2-magnific-popup": "master-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "sereja3578\\documents\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
